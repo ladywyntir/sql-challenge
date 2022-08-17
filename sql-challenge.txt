@@ -1,0 +1,24 @@
+employees columns: emp_no, emp_title_id, birth_date, first_name, last_name, sex, hire_date
+departments: dept_no, dept_name
+dept_manager: dept_no, emp_no
+dept_emp: emp_no, dept_no
+salaries: emp_no, salary
+titles: title_id, title
+
+ReadMe Theory:
+1. Checked the excel files and wrote out the columns.
+employees columns: emp_no, emp_title_id, birth_date, first_name, last_name, sex, hire_date
+departments: dept_no, dept_name
+dept_manager: dept_no, emp_no
+dept_emp: emp_no, dept_no
+salaries: emp_no, salary
+titles: title_id, title
+2. Created an ERD with QuickDBD to see where the associations should live
+
+<insert ERD image here>
+
+3. Created each table using PostgreSQL and loaded the provided CSVs one at a time. This helps to handle the foreign keys/references. 
+
+4. Saved the file to SQL_table_creation.sql
+
+5. Went through the Data Analysis instructions.
